@@ -1,4 +1,3 @@
-// course_model.dart
 class CourseScore {
   final String studentName;
   final double studentScore;
