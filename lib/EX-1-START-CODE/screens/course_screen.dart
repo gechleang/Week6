@@ -42,9 +42,9 @@ class CourseScreen extends StatelessWidget {
             itemBuilder: (ctx, index) => ListTile(
               title: Text(scores[index].studentName),
               trailing: Text(
-                scores[index].studenScore.toString(),
+                scores[index].studentScore.toString(),
                 style: TextStyle(
-                  color: scoreColor(scores[index].studenScore),
+                  color: scoreColor(scores[index].studentScore),
                   fontSize: 15,
                 ),
               ),
