@@ -1,11 +1,11 @@
 // course_model.dart
 class CourseScore {
   final String studentName;
-  final double studenScore;
+  final double studentScore;
 
   const CourseScore({
     required this.studentName, 
-    required this.studenScore, required double value
+    required this.studentScore, required double value
   });
 }
 
@@ -30,7 +30,7 @@ class Course {
 
   double get average {
     if (scores.isNotEmpty) {
-      double total = scores.fold(0, (prev, score) => prev + score.studenScore);
+      double total = scores.fold(0, (prev, score) => prev + score.studentScore);
       return total / scores.length;
     }
     return 0;

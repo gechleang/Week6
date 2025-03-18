@@ -27,7 +27,7 @@ class _CourseScoreFormState extends State<CourseScoreForm> {
       Navigator.of(context).pop(
         CourseScore(
           studentName: _nameController.text.trim(),
-          studenScore: double.parse(_scoreController.text.trim()), value: 0.0,
+          studentScore: double.parse(_scoreController.text.trim()), value: 0.0,
         ),
       );
     }
